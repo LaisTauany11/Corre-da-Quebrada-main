@@ -1,0 +1,300 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    background: rgba(7, 46, 68, 0.7);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#logo{
+    width: 10%;
+    height: 90px;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+}
+
+header nav{
+    width: 75%;
+    height: 20px;
+    padding: 40px 0;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+
+header nav a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: #F1A90E;
+}
+
+#homeF{
+    width: 100%;
+    height: 750px;
+}
+
+#homeF img{
+    width: 100%;
+    height: 100%;
+}
+
+#homeF p{
+    position: absolute;
+    width: 799px;
+    height: 434px;
+    left: 60px;
+    top: 180px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 85px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 8%;
+    margin-left: 3%;
+    font-size: 40px;
+    color: #000000;
+}
+
+.secao{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.secao div{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    margin-top: 1.5%;
+    box-shadow: 10px 10px 10px silver;
+    float: left;
+}
+
+.secao div:hover{
+    background-color: aliceblue;
+}
+
+
+
+.secao div img{
+    width: 200px;
+    height: 200px;
+    border-bottom: #000000 solid;
+}
+
+.secao div p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+}
+
+.secao div h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    padding: 2%;
+    color: #000000;
+}
+
+.secao div button{
+    width: 35%;
+    height: 35px;
+    background: #106493;
+    box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.secao div button:hover{
+    width: 33%;
+    height: 35px;
+}
+
+.secao div button a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.secao1 img{
+    width: 100%;
+    height: 550px;
+    margin-top: 10%;
+}
+
+.secao2{
+    width: 98.5%;
+    height: 500px;
+    margin-top: 10%;
+    text-align: center;    
+    border: #08093A solid 10px;
+}
+
+.secao2 div{
+    width: 50%;
+    height: 500px;
+    float: left ;
+   
+}
+
+.secao2 div img{
+    width: 100%;
+    height: 500px;
+}
+
+.secao2 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    color:#08093A;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+.secao2 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 5%;
+    text-transform: uppercase;
+    color:  #08093A;
+}
+
+.secao2 button{
+    width: 10%;
+    height: 45px;
+    background:  #08093A;
+    box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.secao2 button a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.secao2 button:hover{
+    width: 11%;
+    height: 40px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 10%;
+    background: linear-gradient(90deg, #3C3D68 0%, #08093A 100%);
+}
+
+#separar{
+    width: 60%;
+    height: 200px;
+    float: left;
+}
+
+#logof{
+    width: 150px;
+    height: 100px;
+    padding-left: 2%;
+}
+
+#logof img{
+    width: 100%;
+    height: 100%;
+}
+
+footer nav{
+    width: 90%;
+    display: flex;
+    padding-left: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer nav a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding-top: 5%;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+footer nav a:hover{
+   border-bottom: #F1A90E solid;
+}
+
+#redes{
+    width: 30%;
+    height: 200px;
+    float: left;
+    text-align: center;
+    padding-left: 10%;
+}
+
+#redes p{
+    width: 40%;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding-top: 5%;
+    padding-left: 20%;
+    font-size: 25px;
+    margin: auto;
+    color: #FFFFFF;
+
+} 
+
+#redes p:hover{
+    color: #F1A90E;
+} 
+
+#imagens_redes{
+    width: 30%;
+    display: flex;
+    margin: auto;
+    padding-top: 20%;
+    padding-left: 20%;
+    justify-content: space-between;
+}
+
+#redes img{
+    width: 22px;
+    height: 22px;
+}
+
+#redes img:hover{
+    border-bottom: #F1A90E solid;
+}
+

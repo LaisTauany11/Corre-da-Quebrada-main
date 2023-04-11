@@ -1,0 +1,276 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    background: rgba(7, 46, 68, 0.7);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#logo{
+    width: 10%;
+    height: 90px;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+}
+
+header nav{
+    width: 75%;
+    height: 20px;
+    padding: 40px 0;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+
+header nav a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: #F1A90E;
+}
+
+#ad{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#ad img{
+    width: 95%;
+    height: 600px;
+}
+
+#slogan{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 3%;
+    line-height: 94px;
+    text-align: center;
+}
+
+#linha{
+    width: 90%;
+    height: 5px;
+    margin: auto;
+    background-color: #08093A;
+}
+
+#filtro{
+    width: 80%;
+    height: 55px;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#filtro button{
+    width: 8%;
+    height: 50px;
+    background: rgba(7, 46, 68, 0.7);
+    box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: -10%;
+}
+
+#filtro button:hover{
+    color: #F1A90E;
+}
+
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1%;
+    margin-left: 3%;
+    font-size: 40px;
+    color: #000000;
+}
+
+
+.secao{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.secao div{
+    width: 20%;
+    height: 80%;
+    text-align: center;
+    margin-top: 1.5%;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px  rgba(7, 46, 68, 0.7);
+    float: left;
+}
+
+
+.secao div:hover{
+    background-color: silver;
+}
+
+
+.secao div img{
+    width: 200px;
+    height: 200px;
+    border-bottom: #000000 solid;
+}
+
+.secao div p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+}
+
+.secao div h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    padding: 2%;
+    color: #000000;
+}
+
+.secao div button{
+    width: 35%;
+    height: 35px;
+    background: #776391;
+    box-shadow: 10px 10px 10px rgb(79, 43, 99);
+    border-radius: 15px;
+}
+
+.secao div button:hover{
+    width: 33%;
+    height: 35px;
+}
+
+.secao div button a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 10%;
+    background: rgba(7, 46, 68, 0.897);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#separar{
+    width: 60%;
+    height: 200px;
+    float: left;
+}
+
+#logof{
+    width: 150px;
+    height: 100px;
+    padding-left: 2%;
+}
+
+#logof img{
+    width: 100%;
+    height: 100%;
+}
+
+footer nav{
+    width: 90%;
+    display: flex;
+    padding-left: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer nav a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding-top: 5%;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+footer nav a:hover{
+   border-bottom: #F1A90E solid;
+}
+
+#redes{
+    width: 30%;
+    height: 200px;
+    float: left;
+    text-align: center;
+    padding-left: 10%;
+}
+
+#redes p{
+    width: 40%;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding-top: 5%;
+    padding-left: 20%;
+    font-size: 25px;
+    margin: auto;
+    color: #FFFFFF;
+
+} 
+
+#redes p:hover{
+    color: #F1A90E;
+} 
+
+#imagens_redes{
+    width: 40%;
+    display: flex;
+    margin: auto;
+    padding-top: 20%;
+    padding-left: 20%;
+    justify-content: space-between;
+}
+
+#redes img{
+    width: 22px;
+    height: 22px;
+}
+
+#redes img:hover{
+    border-bottom: #F1A90E solid;
+}
+
+
+
